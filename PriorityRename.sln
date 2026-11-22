@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityRename", "PriorityRename\PriorityRename.csproj", "{5F9F8B33-B682-46B9-B401-9DC40B28BC7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityRename.Tests", "PriorityRename.Tests\PriorityRename.Tests.csproj", "{BA6EE2A6-97A5-4B93-8855-688E16C9CE48}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{49D72E61-316C-4822-B55C-5757521B2A76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityRename.Tests", "tests\PriorityRename.Tests\PriorityRename.Tests.csproj", "{42B1639B-BCC1-4C0E-BE56-5EF16E492741}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +22,12 @@ Global
 		{5F9F8B33-B682-46B9-B401-9DC40B28BC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F9F8B33-B682-46B9-B401-9DC40B28BC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F9F8B33-B682-46B9-B401-9DC40B28BC7E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BA6EE2A6-97A5-4B93-8855-688E16C9CE48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA6EE2A6-97A5-4B93-8855-688E16C9CE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA6EE2A6-97A5-4B93-8855-688E16C9CE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA6EE2A6-97A5-4B93-8855-688E16C9CE48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B1639B-BCC1-4C0E-BE56-5EF16E492741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B1639B-BCC1-4C0E-BE56-5EF16E492741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B1639B-BCC1-4C0E-BE56-5EF16E492741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B1639B-BCC1-4C0E-BE56-5EF16E492741}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42B1639B-BCC1-4C0E-BE56-5EF16E492741} = {49D72E61-316C-4822-B55C-5757521B2A76}
 	EndGlobalSection
 EndGlobal

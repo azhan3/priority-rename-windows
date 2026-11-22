@@ -6,6 +6,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PriorityRename\PriorityRename.csproj" />
+    <ProjectReference Include="..\..\PriorityRename\PriorityRename.csproj" />
   </ItemGroup>
 </Project>

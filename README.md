@@ -56,7 +56,7 @@ Use the tray menu to undo the last completed rename or exit the application.
 Run the rename engine test harness:
 
 ```powershell
-dotnet run --project PriorityRename.Tests/PriorityRename.Tests.csproj -c Release
+dotnet run --project tests/PriorityRename.Tests/PriorityRename.Tests.csproj -c Release
 ```
 
 ## License
