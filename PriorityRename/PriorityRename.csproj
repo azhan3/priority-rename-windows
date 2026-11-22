@@ -8,11 +8,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <AssemblyName>PriorityRename</AssemblyName>
     <RootNamespace>PriorityRename</RootNamespace>
-    <PublishSingleFile>true</PublishSingleFile>
-    <SelfContained>true</SelfContained>
-    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
-    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
-    <DebugType>embedded</DebugType>
   </PropertyGroup>
 
 </Project>
