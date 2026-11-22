@@ -8,6 +8,14 @@ If the target name already exists, the utility can cascade existing names to mak
 - `report (2).pdf` becomes `report (3).pdf`
 - The selected item becomes `report.pdf`
 
+## Download
+
+Download the standalone **[PriorityRename.exe](https://github.com/azhan3/priority-rename-windows/releases/latest)** from GitHub Releases. Windows 10/11 users do not need the .NET 8 SDK.
+
+## Demo
+
+![Ctrl+F2 cascading duplicate filenames](assets/demo.gif)
+
 ## Features
 
 - Global **Ctrl+F2** hotkey
@@ -25,7 +33,7 @@ If the target name already exists, the utility can cascade existing names to mak
 ## Requirements
 
 - Windows 10 or Windows 11
-- .NET 8 SDK for building
+- .NET 8 SDK only when building from source
 
 ## Build
 
